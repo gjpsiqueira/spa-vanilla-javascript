@@ -10,12 +10,8 @@ export default class Navigator {
     initializePage() {
         console.log('initialize ')
         for(let route in this.routes) {
-            console.log(this.routes[route].index)
-            if(this.routes[route].index) {
-                
+            if(this.routes[route].index) 
                 this.navigateTo(this.routes[route].path)
-            }
-                //console.log(this.routes[route].path)
                 
         }
     }
