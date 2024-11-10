@@ -1,0 +1,1 @@
+# Simple SPA application written in vanilla JavaScript
